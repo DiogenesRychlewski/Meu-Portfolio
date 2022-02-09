@@ -148,7 +148,7 @@ footer a {
     }
 
     header .img {
-        visibility: hidden;
+        display: none;
     }
 
     .container {
