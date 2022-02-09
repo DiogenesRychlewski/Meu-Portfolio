@@ -30,10 +30,17 @@ header .menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    -webkit-filter: blur(2px);
+    -webkit-transition: -webkit-filter 250ms linear;
 }
 
 header .menu:hover{
     cursor: pointer;
+    -webkit-filter: none;
+}
+
+header .menu:hover .menu-line {
+    box-shadow: 0px 0px 10px #fff;
 }
 
 header .menu-line {
@@ -41,6 +48,7 @@ header .menu-line {
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0px 0px 10px #111;
+    transition: box-shadow 0.25s ease-in-out;
 }
 
 header .img {
@@ -145,6 +153,10 @@ footer a {
     header {
         position: initial;
         background-color: rgb(38, 156, 185);
+    }
+
+    header .menu {
+        -webkit-filter: none;
     }
 
     header .img {
