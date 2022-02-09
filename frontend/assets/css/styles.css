@@ -43,6 +43,18 @@ header .menu-line {
     box-shadow: 0px 0px 10px #111;
 }
 
+header .img {
+    width: 30px; 
+    margin-right: 175px;
+    -webkit-filter: blur(2px);
+    -webkit-transition : -webkit-filter 250ms linear;
+}
+
+header .img:hover {
+    -webkit-filter: none;
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -133,6 +145,10 @@ footer a {
     header {
         position: initial;
         background-color: rgb(38, 156, 185);
+    }
+
+    header .img {
+        visibility: hidden;
     }
 
     .container {
