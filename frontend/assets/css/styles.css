@@ -217,4 +217,16 @@ footer a {
     .container .leftside .info .name {
         font-size: 35px;
     }
+
+    header .logo {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    footer a {
+        font-size: 14px;
+    }  
 }
