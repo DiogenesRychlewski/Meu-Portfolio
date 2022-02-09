@@ -21,6 +21,7 @@ header .logo {
     color: #fff;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 header .menu {
