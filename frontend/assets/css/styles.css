@@ -1,0 +1,186 @@
+body {
+    background-color: #101219f5;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header .logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+header .menu {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header .menu:hover{
+    cursor: pointer;
+}
+
+header .menu-line {
+    height: 3px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.container .leftside {
+    flex: 1;
+    background-color: rgb(38, 156, 185);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container .rightside {
+    flex: 1;
+    margin-top: 70px;
+    background-image: url('../images/codigo.png');
+    background-size: cover;
+    background-position: -365px -30px;
+    /* background-position-x: -365px; */
+    /* background-position-y: -30px; */
+    background-repeat: no-repeat;
+    -webkit-filter: blur(2px);
+}
+
+.container .info {
+    color: #fff;
+}
+
+.container .info .profession {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.container .info .name {
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.container .info .buttons a {
+    display: inline-block;
+    background-color: #fff;
+    color: rgb(38, 156, 185);
+    padding: 20px 40px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #111;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.container .info .buttons a.light {
+    color: #fff;
+    background-color: rgb(38, 156, 185);
+}
+
+.container .info .buttons a:hover {
+    opacity: 0.8;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 13px;
+    text-align: initial;
+}
+
+footer a {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff
+}
+
+@media (max-width: 1235px) {
+
+    header {
+        position: initial;
+        background-color: rgb(38, 156, 185);
+    }
+
+    .container {
+        flex-direction: column;
+        height: calc(100vh - 70px);
+    }
+
+    .container .rightside {
+        background-position: center;
+        margin-top: 0px;
+    }
+
+    .container .leftside {
+        flex: none;
+        padding: 30px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer {
+        position: initial;
+        color: rgb(207, 207, 207);
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1550px) {
+    .container .leftside .info .name {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 625px) {
+    .container .leftside .info .name {
+        font-size: 50px;
+    }
+
+    .container .leftside .info .buttons a {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 520px) {
+    .container .leftside .info .name {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 435px){
+    .container .leftside .info .name {
+        font-size: 35px;
+    }
+}
