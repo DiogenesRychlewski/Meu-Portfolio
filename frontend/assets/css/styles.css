@@ -119,12 +119,13 @@ footer {
     color: #fff;
     font-size: 13px;
     text-align: initial;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 footer a {
     font-weight: bold;
     font-size: 16px;
-    color: #fff
+    color: #fff;
 }
 
 @media (max-width: 1235px) {
