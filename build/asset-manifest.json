@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22209219.css",
+    "main.js": "/static/js/main.5175db66.js",
+    "static/media/Foco_Total.png": "/static/media/Foco_Total.1bb15eb1b52dcd17f29c.png",
+    "static/media/me_2.png": "/static/media/me_2.e87c1aa284f6a61bf766.png",
+    "static/media/cv.pdf": "/static/media/cv.3be3f200616586c0895b.pdf",
+    "static/media/me.png": "/static/media/me.8ec6cb6649b377cd9fc8.png",
+    "index.html": "/index.html",
+    "main.22209219.css.map": "/static/css/main.22209219.css.map",
+    "main.5175db66.js.map": "/static/js/main.5175db66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22209219.css",
+    "static/js/main.5175db66.js"
+  ]
+}
