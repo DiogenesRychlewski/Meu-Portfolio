@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.22209219.css",
-    "main.js": "/static/js/main.5175db66.js",
+    "main.js": "/static/js/main.2e48ffe0.js",
+    "static/media/netflix.png": "/static/media/netflix.1093643d8fe7861a1ed0.png",
+    "static/media/dsmovie.png": "/static/media/dsmovie.b3462ed0c7cf43fa8a5d.png",
     "static/media/Foco_Total.png": "/static/media/Foco_Total.1bb15eb1b52dcd17f29c.png",
+    "static/media/redstore.png": "/static/media/redstore.c617c1fc10e5d17fb3f4.png",
     "static/media/me_2.png": "/static/media/me_2.e87c1aa284f6a61bf766.png",
+    "static/media/freelaway.png": "/static/media/freelaway.2a7019a5c8f9e6993403.png",
     "static/media/cv.pdf": "/static/media/cv.3be3f200616586c0895b.pdf",
+    "static/media/archapi.jpg": "/static/media/archapi.678f60fd4d6f84d781c3.jpg",
     "static/media/me.png": "/static/media/me.8ec6cb6649b377cd9fc8.png",
+    "static/media/Sistema_Vacinas.png": "/static/media/Sistema_Vacinas.e308f0dc3d39ba506d8a.png",
     "index.html": "/index.html",
     "main.22209219.css.map": "/static/css/main.22209219.css.map",
-    "main.5175db66.js.map": "/static/js/main.5175db66.js.map"
+    "main.2e48ffe0.js.map": "/static/js/main.2e48ffe0.js.map"
   },
   "entrypoints": [
     "static/css/main.22209219.css",
-    "static/js/main.5175db66.js"
+    "static/js/main.2e48ffe0.js"
   ]
 }
