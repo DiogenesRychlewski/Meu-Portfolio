@@ -46,8 +46,8 @@ const About = () => {
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Vamos Conversar</a>
-                    <a href="https://www.linkedin.com/in/paulo-leandro-bertotti-0346a0221/:"><BsLinkedin /></a>
-                    <a href="https://github.com/NetoTV"><FaGithub /></a>
+                    <a href="https://www.linkedin.com/in/paulo-leandro-bertotti-0346a0221/" target="_blank"><BsLinkedin /></a>
+                    <a href="https://github.com/NetoTV" target="_blank"><FaGithub /></a>
                 </div>
             </div>
         </section>
