@@ -27,21 +27,21 @@ const Contact = () => {
                         <MdOutlineEmail className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>pauloleandrolopezzz@gmail.com</h5>
-                        <a href="mailto:pauloleandrolopezzz@gmail.com">Send a message</a>
+                        <a href="mailto:pauloleandrolopezzz@gmail.com">Entre em contato</a>
                     </article>
                     <article className="contact__option">
                         <BsWhatsapp className='contact__option-icon' />
                         <h4>WhatsApp</h4>
                         <h5>+123456789</h5>
-                        <a href="https://api.whatsapp.com/send?phone=5511955528830">Send a message</a>
+                        <a href="https://api.whatsapp.com/send?phone=5511955528830">Entre em contato</a>
                     </article>
                 </div>
                 {/* END OF CONTACT OPTIONS */}
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name='name' placeholder='Your Full Name' required />
-                    <input type="email" name='email' placeholder='Your Email' required />
-                    <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-                    <button type='submit' className='btn btn-primary'>Send Message</button>
+                    <input type="text" name='name' placeholder='Nome' required />
+                    <input type="email" name='email' placeholder='Email' required />
+                    <textarea name="message" rows="7" placeholder='Sua mensagem...' required></textarea>
+                    <button type='submit' className='btn btn-primary'>Enviar Mensagem</button>
                 </form>
             </div>
         </section>

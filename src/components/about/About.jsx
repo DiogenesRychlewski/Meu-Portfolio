@@ -4,6 +4,8 @@ import ME from '../../assets/me_2.png'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import { BsLinkedin } from 'react-icons/bs'
+import { FaGithub } from 'react-icons/fa'
 
 const About = () => {
     return (
@@ -44,6 +46,8 @@ const About = () => {
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Vamos Conversar</a>
+                    <a href="https://www.linkedin.com/in/paulo-leandro-bertotti-0346a0221/:"><BsLinkedin /></a>
+                    <a href="https://github.com/NetoTV"><FaGithub /></a>
                 </div>
             </div>
         </section>
