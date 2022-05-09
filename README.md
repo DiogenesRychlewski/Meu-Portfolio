@@ -8,7 +8,7 @@
 
 <div align="center">
    
-   ![png1](github/Home.png)
+   ![png1](github/canvas.png)
    
 </div>
 
