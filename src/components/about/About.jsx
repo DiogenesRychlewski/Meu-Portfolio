@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me_2.png'
+import ME from '../../assets/me_2.jpeg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -25,29 +25,29 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experiência</h5>
-                            <small>Acadêmica</small>
+                            <small>+2 anos na área de tecnologia</small>
                         </article>
 
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
-                            <h5>Social</h5>
-                            <small>300+ Conexões no LinkedIn</small>
+                            <h5>Acadêmico</h5>
+                            <small>Ensino técnico, superior e +10 cursos online</small>
                         </article>
 
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projetos</h5>
-                            <small>12+ Completos</small>
+                            <small>+40 Completos</small>
                         </article>
                     </div>
 
                     <p>
-                        Estudante de TI na área de Análise e Desenvolvimento de Sistemas, formado em Técnico em Informática e Programador de Sistemas, com experiência acadêmica no gerenciamento de projetos, implantação e manutenção de sistemas.
+                        Analista Desenvolvedor FullStack Junior, com experiência Front-end (web e aplicativo), Back-End, análise de dados, infraestrutura e suporte.
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Vamos Conversar</a>
-                    <a href="https://www.linkedin.com/in/paulo-leandro-bertotti-0346a0221/" target="_blank"><BsLinkedin /></a>
-                    <a href="https://github.com/NetoTV" target="_blank"><FaGithub /></a>
+                    <a href="https://www.linkedin.com/in/diógenes-rychlewski-ab4b1718a/" target="_blank"><BsLinkedin /></a>
+                    <a href="https://github.com/DiogenesRychlewski" target="_blank"><FaGithub /></a>
                 </div>
             </div>
         </section>
