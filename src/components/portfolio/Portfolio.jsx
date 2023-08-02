@@ -1,64 +1,56 @@
 import React from 'react'
 import './portfolio.css'
-import FocoTotalIMG from '../../assets/Foco_Total.png'
-import SistemaVacinasIMG from '../../assets/Sistema_Vacinas.png'
-import DSMovieIMG from '../../assets/dsmovie.png'
-import FreelaWayIMG from '../../assets/freelaway.png'
-import RedStoreIMG from '../../assets/redstore.png'
-import ArchAPIIMG from '../../assets/archapi.jpg'
-import NetflixIMG from '../../assets/netflix.png'
+import CrachaVirtual from '../../assets/cracha_virtual.png'
+import IgniteFeed from '../../assets/ignite_feed.png'
+import DtMonet from '../../assets/dt_money.png'
+import IgNews from '../../assets/ig_news.png'
+import WeDesign from '../../assets/we_design.png'
+import JsCurso from '../../assets/js_curso.png'
 
 let data = [
     {
         id: 1,
-        image: NetflixIMG,
-        title: 'Netflix Home Clone',
-        github: 'https://github.com/NetoTV/Netflix',
-        demo: 'https://netflixhome-plb.netlify.app'
-    },
-    {
-        id: 2,
-        image: RedStoreIMG,
-        title: 'RedStore E-Commerce',
-        github: 'https://github.com/NetoTV/RedStore',
-        demo: 'https://redstore-plb.netlify.app/'
-    },
-    {
-        id: 3,
-        image: DSMovieIMG,
-        title: 'DS Movie',
-        github: 'https://github.com/NetoTV/dsmovie',
-        demo: 'https://dsmovie-plb.netlify.app/'
-    },
-    {
-        id: 4,
-        image: FocoTotalIMG,
-        title: 'Foco Total',
-        github: 'https://github.com/NetoTV/Foco-Total',
+        image: CrachaVirtual,
+        title: 'Crachá Virtual',
+        github: 'https://github.com/DiogenesRychlewski/NLW-Heat-Origin',
         demo: null
     },
     {
-        id: 5,
-        image: SistemaVacinasIMG,
-        title: 'Controle de Vacinação',
-        github: 'https://github.com/NetoTV/Sistema-de-Vacinas',
+        id: 2,
+        image: IgniteFeed,
+        title: 'Ignite Feed',
+        github: 'https://github.com/DiogenesRychlewski/Ignite-Feed-TSX',
         demo: null
     },
 
     {
-        id: 6,
-        image: FreelaWayIMG,
-        title: 'Freela Way',
-        github: 'https://github.com/NetoTV/FreelaWay',
+        id: 3,
+        image: DtMonet,
+        title: 'Dt Money',
+        github: 'https://github.com/DiogenesRychlewski/Ignite-Dt-Money',
         demo: null
     },
     {
-        id: 7,
-        image: ArchAPIIMG,
-        title: 'ArchAPI',
-        github: 'https://github.com/NetoTV/ArchAPI',
+        id: 4,
+        image: IgNews,
+        title: 'Ig News',
+        github: 'https://github.com/DiogenesRychlewski/Ig-News',
         demo: null
-    }
+    },
+    {
+        id: 5,
+        image: WeDesign,
+        title: 'WeDesign',
+        github: 'https://github.com/DiogenesRychlewski/WeDesign-Site',
+        demo: null
+    },
+    {
+        id: 6,
+        image: JsCurso,
+        title: 'Curso JS, JQuery, html, css',
+        github: 'https://github.com/DiogenesRychlewski/Curso-JS',
+        demo: null
+    },
 ]
 
 const Portfolio = () => {

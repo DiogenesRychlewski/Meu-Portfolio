@@ -16,11 +16,9 @@ const Services = () => {
 
                     <ul className='service__list'>
                         <li>
-                            <BiCheck className='service__list-icon' />
                             <p>Noções básicas de UI/UX.</p>
                         </li>
                         <li>
-                            <BiCheck className='service__list-icon' />
                             <p>Foco em criação de telas de fácil utilização, visando melhorar a experiência do usuário.</p>
                         </li>
                     </ul>
@@ -35,35 +33,21 @@ const Services = () => {
 
                     <ul className='service__list'>
                         <li>
-                            <BiCheck className='service__list-icon' />
                             <p>Criação de APIs RESTful.</p>
                         </li>
                         <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>Otimização de Aplicações com o Redis.</p>
+                            <p>Redux.</p>
                         </li>
                         <li>
-                            <BiCheck className='service__list-icon' />
                             <p>Aplicações com Alta Disponibilidade.</p>
                         </li>
                         <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>Criação de Sistemas Inteligentes e Seguros.</p>
+                            <p>Testes unitários.</p>
                         </li>
                         <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>Bancos de dados Relacionais.</p>
+                            <p>AWS Plataform.</p>
                         </li>
                         <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>Bancos de dados Não Relacionais.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>Google Cloud Plataform.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
                             <p><strong>E MUITO MAIS!</strong></p>
                         </li>
                     </ul>
@@ -73,25 +57,15 @@ const Services = () => {
 
                 <article className="service">
                     <div className="service__head">
-                        <h3>Cybersecurity</h3>
+                        <h3>Desenvolvimento mobile</h3>
                     </div>
 
                     <ul className='service__list'>
                         <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>Conhecimentos fundamentais em Cybersegurança.</p>
+                            <p>React Native.</p>
                         </li>
                         <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>Facilidade de encontrar possíveis falhas em sistemas.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>Lógica de programação focada em cobrir possíveis falhas durante o desenvolvimento.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p>Conhecimento sobre Hacking em Games.</p>
+                            <p>Lojas de apps.</p>
                         </li>
                     </ul>
 
