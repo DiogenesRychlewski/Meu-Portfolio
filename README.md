@@ -1,5 +1,5 @@
 <h1 align="center">
-   Portfólio - PLB
+   Portfólio
 </h1>
 
 <br>
