@@ -1,16 +1,8 @@
 <h1 align="center">
-   Portfólio - PLB
+   Portfólio
 </h1>
 
 <br>
-
-## :camera: Demonstração
-
-<div align="center">
-   
-   ![png1](github/canvas.png)
-   
-</div>
 
 ## :rocket: Tecnologias
 
