@@ -6,12 +6,6 @@
 
 ## :camera: Demonstração
 
-<div align="center">
-   
-   ![png1](github/canvas.png)
-   
-</div>
-
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
