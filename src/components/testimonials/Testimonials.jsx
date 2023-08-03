@@ -1,5 +1,6 @@
 import React from 'react'
 import './testimonials.css'
+import FotoPerfil from '../../assets/foto_perfil.jpeg'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -12,13 +13,13 @@ import 'swiper/css/pagination';
 
 const data = [
     {
-        avatar: "https://media-exp1.licdn.com/dms/image/D4E35AQGr6g-xI4l6Cg/profile-framedphoto-shrink_200_200/0/1635513106132?e=2147483647&v=beta&t=bWr1Bm1Tjg-xpsC5n-yJjZ1WaWtpMoqOu5pjqtqcpUs",
-        name: 'Paulo L. Bertotti',
+        avatar: FotoPerfil,
+        name: 'Diógenes Rychlewski',
         review: 'Espero que você tenha gostado do site! 😃️'
     },
     {
-        avatar: "https://media-exp1.licdn.com/dms/image/D4E35AQGr6g-xI4l6Cg/profile-framedphoto-shrink_200_200/0/1635513106132?e=2147483647&v=beta&t=bWr1Bm1Tjg-xpsC5n-yJjZ1WaWtpMoqOu5pjqtqcpUs",
-        name: 'Paulo L. Bertotti',
+        avatar: FotoPerfil,
+        name: 'Diógenes Rychlewski',
         review: 'Feito com ❤️ e JavaScript.'
     }
 ]

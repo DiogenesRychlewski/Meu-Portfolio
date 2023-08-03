@@ -19,12 +19,12 @@ const Footer = () => {
             </ul>
 
             <div className="footer__socials">
-                <a href="https://www.linkedin.com/in/paulo-leandro-bertotti-0346a0221/"><BsLinkedin /></a>
-                <a href="https://github.com/NetoTV"><FaGithub /></a>
+                <a href="https://www.linkedin.com/in/diógenes-rychlewski-ab4b1718a/"><BsLinkedin /></a>
+                <a href="https://github.com/DiogenesRychlewski"><FaGithub /></a>
             </div>
 
             <div className="footer__copyright">
-                <small>&copy; Paulo Leandro Bertotti. All rights reserved.</small>
+                <small>&copy; All rights reserved.</small>
             </div>
         </footer>
     )
